@@ -1,0 +1,142 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .style_header {
+        padding: 10px 0;
+        border: 1px solid red;
+        border-bottom: 2px solid #eee;
+        overflow: hidden;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .logo {
+        width: 30%;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .web_menu {
+        width: 70%;
+        float: right;
+        overflow: hidden;
+        text-align: right;
+        margin-top: 13px;
+    }
+    
+    .web_menu ul li {
+        display: inline-block;
+    }
+    
+    .web_menu ul li a {
+        display: block;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 16px;
+        margin: 0 10px;
+    }
+    
+    .web_menu ul li a i {
+        margin-right: 5px;
+    }
+    
+    .web_menu ul li a img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 4px;
+        margin-right: 5px;
+    }
+    
+    .login_bar {
+        border: 1px solid red;
+        padding: 7px 20px;
+        background-color: #c44569;
+        color: #fff;
+        border-radius: 33px;
+        -webkit-border-radius: 33px;
+        -moz-border-radius: 33px;
+        -ms-border-radius: 33px;
+        -o-border-radius: 33px;
+        outline: none;
+    }
+    
+    .form_and_other {
+        overflow: hidden;
+    }
+    
+    .contant_left {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .contant_right {
+        width: 50%;
+        float: right;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .form_images img {
+        width: 90%;
+        margin-top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    
+    .form_title {
+        margin-left: 160px;
+        text-align: center;
+    }
+    
+    .form_title h2 {
+        margin-bottom: 15px;
+        font-family: 'KoHo', sans-serif;
+    }
+    
+    .form_div {
+        width: 65%;
+    }
+    
+    .signup_form input {
+        width: 100%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        outline: none;
+        border: 1px solid #ced6e0;
+        margin-bottom: 15px;
+        margin-left: 155px;
+    }
+    
+    .signup_form input[type=submit] {
+        width: 20%;
+        background-color: #b71540;
+        padding: 10px 0;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        color: #fff;
+    }
